@@ -13,7 +13,7 @@ export default function SlackWorkspaceInput({
     }
   };
   return (
-    <div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+    <div className="group rounded-lg border border-transparent px-5 pb-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
       <h2 className="mb-3 text-2xl font-semibold">
         Your slack workspace{" "}
         <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none"></span>
@@ -21,7 +21,7 @@ export default function SlackWorkspaceInput({
       <input
         type="text"
         ref={inputRef}
-        defaultValue="<workspace-name>"
+        placeholder="<workspace-name>"
         required
         className="m-0 max-w-[30ch] text-sm opacity-90 rounded-md dark:bg-transparent dark:text-white border dark:border-white border-gray-500 py-2 px-1"
         onInput={handleChange}
