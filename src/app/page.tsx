@@ -12,7 +12,7 @@ export default function Home() {
       <InteractionContainer />
       <TincreAd
         {...{
-          url: "https://tincre.com",
+          url: "https://tinc.re/IPd25FD",
           adtext: "Easiest ads on the web",
           image: { url: "/tincre_logo_small.jpg", width: 50 },
         }}
