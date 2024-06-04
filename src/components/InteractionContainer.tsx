@@ -18,7 +18,10 @@ export default function InteractionContainer({}) {
     setWorkspaceName(name);
   };
   return (
-    <div id="interaction-container" className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-2 lg:text-left">
+    <div
+      id="interaction-container"
+      className="-mt-4 mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-2 lg:text-left gap-2"
+    >
       <SlackWorkspaceInput onValueChange={onValueChange} />
       <SlackOptOutLink workspaceUrl={workspaceUrl} />
     </div>

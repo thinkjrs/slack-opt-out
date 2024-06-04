@@ -13,7 +13,7 @@ export default function SlackWorkspaceInput({
     }
   };
   return (
-    <div className="group rounded-lg border border-transparent px-5 pb-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+    <div className="group rounded-lg border border-gray-200 dark:border-gray-800 px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
       <h2 className="mb-3 text-2xl font-semibold">
         Your slack workspace{" "}
         <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none"></span>

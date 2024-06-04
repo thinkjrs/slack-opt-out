@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <div className="relative h-screen text-white overflow-hidden bg-transparent -mt-20">
+    <div className="relative h-screen dark:text-white overflow-hidden bg-transparent -mt-20">
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-transparent opacity-50"></div>
       </div>
@@ -11,7 +11,7 @@ export default function Header() {
         <h1 className="text-5xl font-bold leading-tight mb-4">
           Slack is training models on your corporate secrets.
         </h1>
-        <p className="text-lg text-gray-300 mb-8">
+        <p className="text-lg dark:text-gray-300 mb-8 text-gray-800">
           {`Here's a simple tool to opt-out from this horrific behavior.`}
         </p>
         <Link

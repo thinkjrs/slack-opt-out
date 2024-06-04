@@ -22,7 +22,7 @@ export default function SlackOptOutLink({
       <a
         href={workspaceUrl !== "" ? emailUrl : undefined}
         onClick={workspaceUrl !== "" ? undefined : notify}
-        className="group rounded-lg border border-transparent px-5 pb-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 cursor-pointer"
+        className="group rounded-lg border border-gray-200 dark:border-gray-800 px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 cursor-pointer"
         target="_blank"
         rel="noopener noreferrer"
         aria-disabled={workspaceUrl !== "" ? false : true}
